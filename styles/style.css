@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
 }
-/* 
+
 .rating{
     display: flex;
     justify-content: start;
@@ -51,7 +51,7 @@
   .rating > input:checked ~ label {
     color: #ffa723;
   }
-   */
+   
   
   
   
