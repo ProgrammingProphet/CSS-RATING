@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+/*
+.rating:not(:checked) > label{
+    float: right;
+    cursor: pointer;
+    font-size: 200px;
+    color: rgb(90, 90, 90);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★';
+  }
+
+
+.rating > input:checked + label:hover {
+    color: #e53509;
+}
+
+ .rating > input:checked + label:hover ~ label {
+    color: #020074;
+}
+
+.rating > input:checked ~ label:hover {
+    color: #e53509;
+}
+
+.rating > input:checked ~ label:hover ~ label {
+    color: #e53509;
+}
+
+.rating > label:hover ~ input:checked ~ label {
+    color: #e53509;
+}
+
+
+.rating:not(:checked) > label:hover{
+    color: #00ff0d;
+}
+.rating:not(:checked) > label:hover ~ label {
+  color: #885200;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}  */
